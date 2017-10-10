@@ -16,3 +16,19 @@
 
 
 ## Create a variable `height.in.meters` by passing `height.in.feet` to your `FeetToMeters` function
+
+AddThree = function(value)
+{
+  return (value+3)
+}
+
+ten = AddThree(7)
+
+FeetToMeters = function(feet)
+{
+  return (0.3048*feet)
+}
+
+height.in.feet = 6
+
+height.in.meters = FeetToMeters(height.in.feet)
